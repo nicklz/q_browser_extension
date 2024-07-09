@@ -5,6 +5,9 @@ function executeWithDelay(commands, index = 0) {
   }
 }
 
+let first_name = "Nick"
+let last_name = "Kuhn"
+
 let playlistPageExists = document.querySelector('.react-aria-GridList');
 let distrokidExists = document.querySelector('.everythingButNavNoTopMargin');
 
@@ -88,11 +91,11 @@ if (distrokidExists) {
     });
 
     document.querySelectorAll('input.songwriter_real_name_first').forEach(input => {
-      input.value = 'Nick';
+      input.value = first_name;
     });
 
     document.querySelectorAll('input.songwriter_real_name_last').forEach(input => {
-      input.value = 'Kuhn';
+      input.value = last_name;
     });
 
     document.querySelectorAll('.upload-mobile-important-checkboxes input[type="checkbox"]').forEach(checkbox => {
