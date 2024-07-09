@@ -23,7 +23,7 @@ button.style.border = '20px solid red';
 button.style.borderRadius = '5px';
 button.style.cursor = 'pointer';
 
-
+//TODO: fix this nonsense - the website has several JS errors and inconsistencies that required this but i do believe there is a loop that can do this instead of hardcoded
 if (playlistPageExists) {
   button.textContent = 'Download MP3 files';
   button.onclick = () => {
